@@ -1,0 +1,21 @@
+# For simplicity, we can read line by line without complex parsing
+Max Number of Notifications (Set to -1 for infinite):              
+-1
+
+Time before Notification (in Seconds):
+1200
+
+Time of Break (in Seconds):
+300
+
+Notification Title
+Break Time
+
+Notification Text
+Time to get up!
+
+Time before Idle State (in Seconds):
+120
+
+
+
