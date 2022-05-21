@@ -15,7 +15,7 @@ There are two ways to download this project. The first is by [cloning the repo](
 
 The second method is by going to the [Releases](https://github.com/ClementineAccount/SimpleBreak/releases/tag/v.1.0.0) page and downloading the release `.zip` file.
 <br>
-![image](https://user-images.githubusercontent.com/26779639/169644761-67908f45-7360-4e23-b6c4-765b81ed0d1f.png)
+![image](https://user-images.githubusercontent.com/26779639/169644933-aabaaf11-67d1-4d47-a1be-28f86fdb3f5c.png)
 <br>
 <sub> The release tab is towards the right-hand side of a GitHub repo. Not all repos may contain one.
 
