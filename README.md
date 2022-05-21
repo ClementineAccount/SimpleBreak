@@ -14,7 +14,9 @@ The documentation on this project is hence written with beginners in mind and ca
 There are two ways to download this project. The first is by [cloning the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). This is useful if further development using PyCharm is intended, as it allows the repo to be opened as a project.
 
 The second method is by going to the [Releases](https://github.com/ClementineAccount/SimpleBreak/releases/tag/v.1.0.0) page and downloading the release `.zip` file.
+<br>
 ![image](https://user-images.githubusercontent.com/26779639/169644761-67908f45-7360-4e23-b6c4-765b81ed0d1f.png)
+<br>
 <sub> The release tab is towards the right-hand side of a GitHub repo. Not all repos may contain one.
 
 # Installation & Usage
