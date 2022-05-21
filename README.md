@@ -15,7 +15,7 @@ The documentation on this project is hence written with beginners in mind and ca
 
 Firstly, Python should either be installed through [the official website](https://www.python.org/) or through [PyCharm](https://www.jetbrains.com/pycharm/), which is a popular and industry standard [IDE (Integrated Development Environment)](https://en.wikipedia.org/wiki/Integrated_development_environment).
 
-The dependency modules can be installed either through [pip install](https://docs.python.org/3/installing/index.html) or (highly recommended) through [PyCharm](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html). Consider running the project in a [virtual environment](https://docs.python.org/3/library/venv.html).
+The dependency modules can be installed either through [`pip install`](https://docs.python.org/3/installing/index.html) or (highly recommended) through [PyCharm](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html). Consider running the project in a [virtual environment](https://docs.python.org/3/library/venv.html).
 
 The python script `simpleBreak.py` can be run in the following ways.
 The user could run the script [traditionally through command line](https://docs.python.org/3/faq/windows.html#id3). 
