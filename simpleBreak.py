@@ -56,7 +56,7 @@ def print_notif(notif_length, notification_title, notification_text):
     )
 
 
-# Press the green button in the gutter to run the script.
+# Press the green button in corner to run the script.
 if __name__ == '__main__':
     print("Running my python script")
 
