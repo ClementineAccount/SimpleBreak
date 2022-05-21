@@ -29,6 +29,8 @@ What this does is that the `simpleBreak.py` file is being 'fed' to the Python in
 Currently,  `simpleBreak.py` looks for a file with the exact name of `settings.txt` in order to set simple settings.  The second iteration of this script may allow different configuration files to be fed at command line.
 
 The script uses Windows 10 dependent libraries.
+
+[The `.idea` folder](https://rider-support.jetbrains.com/hc/en-us/articles/207097529-What-is-the-idea-folder-)
 # Dependencies 
 |Package| Purpose |
 |--|--|
