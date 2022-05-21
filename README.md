@@ -5,9 +5,11 @@
 <br>
 SimpleBreak is a python script that sets a break reminder at a time interval specifically for Windows 10 by using [win10toast](https://pypi.org/project/win10toast/) to call a Windows notification. It also uses the [win32api](https://pypi.org/project/pywin32/) package to detect if the computer is in an idle state.
 
-It can be automated to run on startup. This script was originally created to be used as part of a tutorial teaching beginner scripting but is being released early prior to the tutorial's completion. I have decided to release it early as I may not have the time resources currently to finish the original tutorial to the quality of my expectation in due time. Regardless, the script in its current form can provide a good starter for education.
+The SimpleBreak script was originally created to be used as part of a tutorial teaching beginner scripting and created on request.
 
-The documentation on this project is hence written with beginners in mind and can act as a lightweight tutorial of sorts. It is written in a similar tone and expectation to a simple textbook or educational material for beginner programmers as introduction material. This is why this page is as verbose and detailed as it might be, as it acts as a substitute for a tutorial and also introduces the reader to the structure of downloading and developing code from their first GitHub repository. 
+I have decided to release it early as I may not have the time resources currently to finish the original tutorial to the quality of my expectation in due time. Regardless, the script in its current form can provide a good starter for education.
+
+The documentation on this project is hence written with beginners in mind and can act as a lightweight tutorial of sorts. It was written in a similar tone and expectation to a simple textbook or educational material for beginner programmers as introduction material. This is why this page is as verbose and detailed as it might be, as it acts as a substitute for a tutorial and also introduces the reader to the structure of downloading and developing code from their first GitHub repository. 
 
 # Downloading
 
