@@ -45,7 +45,7 @@ There are a few methods to automate the starting of this file that one can consi
 
 
 # Further Learning
-The script is quite minimalistic and so here are some ideas that can be considered to improve it in a fork for learning purposes.
+The script is quite minimalistic and so here are some ideas that can be considered to improve it in a [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) for learning purposes.
 1. Allow the text and icon to be read from the `settings.txt` file
 2. [Allow the passing of different `settings.txt` files on startup](https://realpython.com/python-command-line-arguments/) which can allow different configuration profiles for different days, timings and moods.
 3. Consider recreating the script functionality in [AutoHotKey](https://www.autohotkey.com/) using [TrayTip](https://www.autohotkey.com/docs/commands/TrayTip.htm) instead of Python 
