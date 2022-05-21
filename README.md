@@ -26,9 +26,15 @@ py simpleBreak.py
 ```
 What this does is that the `simpleBreak.py` file is being 'fed' to the Python interpreter program that was installed and so the Python program will execute code using the instructions (the `.py` script) that was written. 
  
-Currently,  `simpleBreak.py` looks for a file with the exact name of `settings.txt` in order to set simple settings.  The second iteration of this script may allow different configuration files to be fed at command line.
+Currently, `simpleBreak.py` looks for a file with the exact name of `settings.txt` in order to set simple settings.  The second iteration of this script may allow different configuration files to be fed at command line. 
 
-The script uses Windows 10 dependent libraries.
+The script uses Windows 10 dependent libraries and so will only run on Windows 10 and possibly Windows 11.
+
+# Startup Automation
+
+There are a few methods to automate the starting of this file that one can consider.
+1. [Windows Batch File in Startup Folder](https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10)
+2. [Windows Task Scheduler](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10)
 
 [The `.idea` folder](https://rider-support.jetbrains.com/hc/en-us/articles/207097529-What-is-the-idea-folder-)
 # Dependencies 
@@ -36,3 +42,12 @@ The script uses Windows 10 dependent libraries.
 |--|--|
 | [Windows 10 Toast Notifications](https://github.com/jithurjacob/Windows-10-Toast-Notifications) | Calls the Windows notification toast when the break conditions are met |
 | [pywin32](https://github.com/mhammond/pywin32) | Check if the Windows computer is idle |
+
+
+# Further Learning
+The script is quite minimalistic and so here are some ideas that can be considered to improve it in a fork for learning purposes.
+1. Allow the text and icon to be read from the `settings.txt` file
+2. [Allow the passing of different `settings.txt` files on startup](https://realpython.com/python-command-line-arguments/) which can allow different configuration profiles for different days, timings and moods.
+3. Consider recreating the script functionality in [AutoHotKey](https://www.autohotkey.com/) using [TrayTip](https://www.autohotkey.com/docs/commands/TrayTip.htm) instead of Python 
+4. Turn the script into an executable using [pyinstaller](https://datatofish.com/executable-pyinstaller/)
+5. Allow a cross-platform implementation by replacing `win32api` and `Windows 10 Toast Notification` dependencies to use a different gui, like for example [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
