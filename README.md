@@ -50,4 +50,7 @@ The script is quite minimalistic and so here are some ideas that can be consider
 2. [Allow the passing of different `settings.txt` files on startup](https://realpython.com/python-command-line-arguments/) which can allow different configuration profiles for different days, timings and moods.
 3. Consider recreating the script functionality in [AutoHotKey](https://www.autohotkey.com/) using [TrayTip](https://www.autohotkey.com/docs/commands/TrayTip.htm) instead of Python 
 4. Turn the script into an executable using [pyinstaller](https://datatofish.com/executable-pyinstaller/)
-5. Allow a cross-platform implementation by replacing `win32api` and `Windows 10 Toast Notification` dependencies to use a different gui, like for example [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
+5. Allow a cross-platform implementation by replacing `win32api` and `Windows 10 Toast Notification` dependencies to use a different gui, like for example [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)*
+
+<sub>
+*The future part of the tutorial series that revisits this script will migrate to using PySimpleGUI too.
