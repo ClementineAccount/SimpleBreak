@@ -42,7 +42,7 @@ Note: [The `.idea` folder](https://rider-support.jetbrains.com/hc/en-us/articles
 
 # Startup Automation
 
-There are a few methods to automate the starting of this file that one can consider.
+There are a few methods to automate whether the script could run at Startup for Windows that one could consider.
 1. [Windows Batch File in Startup Folder](https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10)
 2. [Windows Task Scheduler](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10)
 
