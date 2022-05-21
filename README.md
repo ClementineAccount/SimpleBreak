@@ -5,11 +5,17 @@
 <br>
 SimpleBreak is a python script that sets a break reminder at a time interval specifically for Windows 10 by using [win10toast](https://pypi.org/project/win10toast/) to call a Windows notification. It also uses the [win32api](https://pypi.org/project/pywin32/) package to detect if the computer is in an idle state.
 
-It can be automated to run on startup. This script was originally created to be used as part of a tutorial teaching beginner scripting but is being released early prior to the tutorial's completion. 
+It can be automated to run on startup. This script was originally created to be used as part of a tutorial teaching beginner scripting but is being released early prior to the tutorial's completion. I have decided to release it early as I may not have the time resources currently to finish the original tutorial to the quality of my expectation in due time. Regardless, the script in its current form can provide a good starter for education.
 
-The documentation on this project is hence written with beginners in mind and can act as a lightweight tutorial of sorts.
+The documentation on this project is hence written with beginners in mind and can act as a lightweight tutorial of sorts. It is written in a similar tone and expectation to a simple textbook or educational material for beginner programmers as introduction material. This is why this page is as verbose and detailed as it might be, as it acts as a substitute for a tutorial and also introduces the reader to the structure of downloading and developing code from their first GitHub repository. 
 
+# Downloading
 
+There are two ways to download this project. The first is by [cloning the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). This is useful if further development using PyCharm is intended, as it allows the repo to be opened as a project.
+
+The second method is by going to the [Releases](https://github.com/ClementineAccount/SimpleBreak/releases/tag/v.1.0.0) page and downloading the release `.zip` file.
+![image](https://user-images.githubusercontent.com/26779639/169644761-67908f45-7360-4e23-b6c4-765b81ed0d1f.png)
+<sub> The release tab is towards the right-hand side of a GitHub repo. Not all repos may contain one.
 
 # Installation & Usage
 
@@ -49,8 +55,9 @@ The script is quite minimalistic and so here are some ideas that can be consider
 1. Allow the text and icon to be read from the `settings.txt` file
 2. [Allow the passing of different `settings.txt` files on startup](https://realpython.com/python-command-line-arguments/) which can allow different configuration profiles for different days, timings and moods.
 3. Consider recreating the script functionality in [AutoHotKey](https://www.autohotkey.com/) using [TrayTip](https://www.autohotkey.com/docs/commands/TrayTip.htm) instead of Python 
-4. Turn the script into an executable using [pyinstaller](https://datatofish.com/executable-pyinstaller/)
-5. Allow a cross-platform implementation by replacing `win32api` and `Windows 10 Toast Notification` dependencies to use a different gui, like for example [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)*
+4. Turn the script into an executable using [pyinstaller](https://datatofish.com/executable-pyinstaller/)*
+5. Allow a cross-platform implementation by replacing `win32api` and `Windows 10 Toast Notification` dependencies to use a different gui, like for example [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)**
 
 <sub>
-*The future part of the tutorial series that revisits this script will migrate to using PySimpleGUI too.
+*Is it always better to release a `.exe` file over a `.py` file? What are the pros and cons of either distribution method? 
+**The future part of the tutorial series that revisits this script will migrate to using PySimpleGUI too.
