@@ -62,6 +62,6 @@ The script is quite minimalistic and so here are some ideas that can be consider
 5. Allow a cross-platform implementation by replacing `win32api` and `Windows 10 Toast Notification` dependencies to use a different gui, like for example [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)**
 
 <sub>
-*Is it always better to release a `.exe` file over a `.py` file? What are the pros and cons of either distribution method? 
+*Is it always better to release an .exe file over a .py file? What are the pros and cons of either distribution method? 
 <br>
 **The future part of the tutorial series that revisits this script will migrate to using PySimpleGUI too.
