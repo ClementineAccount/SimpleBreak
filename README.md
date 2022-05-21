@@ -63,4 +63,5 @@ The script is quite minimalistic and so here are some ideas that can be consider
 
 <sub>
 *Is it always better to release a `.exe` file over a `.py` file? What are the pros and cons of either distribution method? 
+<br>
 **The future part of the tutorial series that revisits this script will migrate to using PySimpleGUI too.
